@@ -1,4 +1,44 @@
+# Environments
+.env
+env/
+/env
+/env*
+*.env~
+
+.venv
+venv/
+/venv
+/venv*
+*.venv~
+
+.node_modules
+node_modules/
+/node_modules
+/node_modules*
+*.node_modules~
+
 # Binaries for programs and plugins
-*.exe
+.exe
+exe/
+/exe
+/exe*
 *.exe~
-*.env
+
+# Cache
+.__pycache__
+__pycache__/
+/__pycache__
+/__pycache__*
+*.__pycache__~
+
+.pyc
+pyc/
+/pyc
+/pyc*
+*.pyc~
+
+# Idea's
+idea/
+/idea
+/idea*
+*.idea~
