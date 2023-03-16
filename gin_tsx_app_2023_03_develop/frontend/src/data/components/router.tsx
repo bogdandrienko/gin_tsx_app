@@ -8,6 +8,7 @@ import axios from "axios";
 
 import HomePage from "../pages/HomePage";
 import DumptrucksScan from "../screens/DumptrucksScan";
+import ShovelsScan from "../screens/ShovelsScan";
 import TripsPredictive from "../screens/TripsPredictive";
 import HomePageNew from "../screens/HomePageNew";
 import LoginPage from "../pages/LoginPage";
@@ -42,6 +43,7 @@ export default function Page() {
       <Routes>
         <Route path="/" element={<HomePageNew />}></Route>
         <Route path="/dumptrucks" element={<DumptrucksScan />}></Route>
+        <Route path="/shovels" element={<ShovelsScan />}></Route>
         <Route path="/predictive" element={<TripsPredictive />}></Route>
         {/*<Route path="/" element={<HomePage />}></Route>*/}
         {/*<Route path="/login" element={<LoginPage />}></Route>*/}

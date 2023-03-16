@@ -26,8 +26,14 @@ export default function Page(): JSX.Element {
           Анализ автосамосвалов
         </Link>
         <Link
-          to={"/predictive"}
+          to={"/shovels"}
           className={"btn btn-lg btn-outline-success fw-bold lead display-6"}
+        >
+          Анализ экскаваторов
+        </Link>
+        <Link
+          to={"/predictive"}
+          className={"btn btn-lg btn-outline-warning fw-bold lead display-6"}
         >
           Предиктивная аналитика
         </Link>
